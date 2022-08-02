@@ -1,0 +1,15 @@
+@media (min-width: 48rem) {
+  .newsletter-container {
+    width: 50%;
+  }
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 4.375rem;
+}
+
+html {
+  scroll-padding-top: 4.375rem;
+}
